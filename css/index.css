@@ -1,0 +1,34 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    background-image: url("/img/background.webp");
+    background-color: rgb(10, 19, 104);
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heart {
+    font-weight: bold;
+    /*border: 3px solid #ffffff;*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    /*box-sizing: border-box;*/
+    transition: all .5s ease-in-out;
+}
+
+.heart_v1 {
+    padding-bottom: 100px;
+}
