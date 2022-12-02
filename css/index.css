@@ -4,7 +4,7 @@ html, body {
 }
 
 .bg {
-    background-image: url("heart-love/img/background.webp");
+    background-image: url("https://github.com/hoangtuan30124/heart-love/img/background.webp");
     background-color: rgb(10, 19, 104);
     filter: blur(5px);
     -webkit-filter: blur(5px);
